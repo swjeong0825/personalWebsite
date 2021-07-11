@@ -43,19 +43,24 @@ const SubheadFormat = (props) => {
 /*
   types:
   props.head: String | undefined
-  props.subheads: [String] | undefined
+  props.subheads: String | [String] | undefined
   props.contentImagesAndUrlPair: Object {key: String(each subhead), value: [imported image, String(url)] | [[imported image, String(url)]]}
 */
 const AboutPageContentsFormat = (props) => {
   const subheadsToJsx = () => {
-    return props.subheads
-      ? props.subheads.map((subhead) => (
-          <SubheadFormat
-            subhead={subhead}
-            imageUrlPairsOfTheSubhead={props.contentImagesAndUrlPairs[subhead]}
-          />
-        ))
-      : {};
+    if (!props.subheads) {
+      return;
+    }
+
+    const subheads = Array.isArray(props.subheads)
+      ? props.subheads
+      : [props.subheads];
+    return subheads.map((subhead) => (
+      <SubheadFormat
+        subhead={subhead}
+        imageUrlPairsOfTheSubhead={props.contentImagesAndUrlPairs[subhead]}
+      />
+    ));
   };
 
   return (

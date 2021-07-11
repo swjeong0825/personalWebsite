@@ -13,7 +13,7 @@ const About = () => {
     <div>
       <AboutPageContentsFormat
         head='Education'
-        subheads={["Undergraduate"]}
+        subheads={"Undergraduate"}
         contentImagesAndUrlPairs={{
           Undergraduate: [UMassAmherstCicsLogo, "https://www.cics.umass.edu/"],
         }}
