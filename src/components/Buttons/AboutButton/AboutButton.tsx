@@ -5,7 +5,7 @@ const AboutButton = () => {
     <Link to='/about'>
       <button
         type='button'
-        class='btn btn-primary'
+        className='btn btn-primary'
         style={{ marginRight: "10px" }}>
         About Me
       </button>

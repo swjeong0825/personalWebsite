@@ -1,7 +1,7 @@
 import { Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
-const NavigationBar = () => {
+const NavigationBar = (props: any) => {
   return (
     <Navbar
       style={{ margin: "10px 59.328px" }}

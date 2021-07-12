@@ -1,5 +1,5 @@
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import { Switch, Route } from "react-router-dom";
 
 import NavigaitonBar from "./components/NavigationBar/NavigationBar";
@@ -9,7 +9,7 @@ import Contact from "./containers/contact/contact";
 
 function App() {
   return (
-    <div className='row'>
+    <div>
       <div className='col-md-8 offset-md-2'>
         <NavigaitonBar />
         <Switch>
