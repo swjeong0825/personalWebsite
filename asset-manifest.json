@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/personalWebsite/static/css/main.2b8c9f09.chunk.css",
-    "main.js": "/personalWebsite/static/js/main.4419a9eb.chunk.js",
-    "main.js.map": "/personalWebsite/static/js/main.4419a9eb.chunk.js.map",
-    "runtime-main.js": "/personalWebsite/static/js/runtime-main.6b2b0c64.js",
-    "runtime-main.js.map": "/personalWebsite/static/js/runtime-main.6b2b0c64.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/personalWebsite/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a7d2aab6.chunk.js": "/personalWebsite/static/js/2.a7d2aab6.chunk.js",
-    "static/js/2.a7d2aab6.chunk.js.map": "/personalWebsite/static/js/2.a7d2aab6.chunk.js.map",
-    "static/js/3.2854aa43.chunk.js": "/personalWebsite/static/js/3.2854aa43.chunk.js",
-    "static/js/3.2854aa43.chunk.js.map": "/personalWebsite/static/js/3.2854aa43.chunk.js.map",
+    "main.css": "/personalWebsite/static/css/main.e771f621.chunk.css",
+    "main.js": "/personalWebsite/static/js/main.b680521d.chunk.js",
+    "main.js.map": "/personalWebsite/static/js/main.b680521d.chunk.js.map",
+    "runtime-main.js": "/personalWebsite/static/js/runtime-main.bc20b3d7.js",
+    "runtime-main.js.map": "/personalWebsite/static/js/runtime-main.bc20b3d7.js.map",
+    "static/css/2.4be38407.chunk.css": "/personalWebsite/static/css/2.4be38407.chunk.css",
+    "static/js/2.1d226304.chunk.js": "/personalWebsite/static/js/2.1d226304.chunk.js",
+    "static/js/2.1d226304.chunk.js.map": "/personalWebsite/static/js/2.1d226304.chunk.js.map",
+    "static/js/3.0c1b591a.chunk.js": "/personalWebsite/static/js/3.0c1b591a.chunk.js",
+    "static/js/3.0c1b591a.chunk.js.map": "/personalWebsite/static/js/3.0c1b591a.chunk.js.map",
     "index.html": "/personalWebsite/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/personalWebsite/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2b8c9f09.chunk.css.map": "/personalWebsite/static/css/main.2b8c9f09.chunk.css.map",
-    "static/js/2.a7d2aab6.chunk.js.LICENSE.txt": "/personalWebsite/static/js/2.a7d2aab6.chunk.js.LICENSE.txt",
+    "static/css/2.4be38407.chunk.css.map": "/personalWebsite/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.e771f621.chunk.css.map": "/personalWebsite/static/css/main.e771f621.chunk.css.map",
+    "static/js/2.1d226304.chunk.js.LICENSE.txt": "/personalWebsite/static/js/2.1d226304.chunk.js.LICENSE.txt",
+    "static/media/ACEA-Logo-Web.2d8008f0.png": "/personalWebsite/static/media/ACEA-Logo-Web.2d8008f0.png",
     "static/media/HackUMass2020Logo.d20816f0.png": "/personalWebsite/static/media/HackUMass2020Logo.d20816f0.png",
     "static/media/QHacks2021Logo.9528cb54.png": "/personalWebsite/static/media/QHacks2021Logo.9528cb54.png",
-    "static/media/SunwooJeong.1fb1b578.jpg": "/personalWebsite/static/media/SunwooJeong.1fb1b578.jpg"
+    "static/media/SunwooJeong.1fb1b578.jpg": "/personalWebsite/static/media/SunwooJeong.1fb1b578.jpg",
+    "static/media/UMassAmherstCICS.4f2b543f.png": "/personalWebsite/static/media/UMassAmherstCICS.4f2b543f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b2b0c64.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a7d2aab6.chunk.js",
-    "static/css/main.2b8c9f09.chunk.css",
-    "static/js/main.4419a9eb.chunk.js"
+    "static/js/runtime-main.bc20b3d7.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.1d226304.chunk.js",
+    "static/css/main.e771f621.chunk.css",
+    "static/js/main.b680521d.chunk.js"
   ]
 }
