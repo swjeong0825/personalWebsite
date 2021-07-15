@@ -1,7 +1,10 @@
 import { Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { useLocation } from "react-router-dom";
 
+import Modal from "../../reusableComponents/modal/modal";
 const NavigationBar = (props: any) => {
+  const location = useLocation();
   return (
     <Navbar
       style={{ margin: "10px 59.328px" }}
@@ -13,10 +16,14 @@ const NavigationBar = (props: any) => {
         <LinkContainer to='/about'>
           <Nav.Link>About</Nav.Link>
         </LinkContainer>
-        <LinkContainer to='/contact'>
-          <Nav.Link href='contact'>Contact</Nav.Link>
-        </LinkContainer>
       </Nav>
+      <Modal />
+      {/* <button
+        type='button'
+        className='btn btn-outline-light text-secondary'
+        onClick={() => console.log("a")}>
+        Contact
+      </button> */}
     </Navbar>
   );
 };

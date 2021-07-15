@@ -27,7 +27,7 @@ const About = () => {
         contentImagesAndUrlPairs={{
           Internships: { image: ACEALogo, url: "https://aceaglobal.com/" },
           Hackathons: [
-            { image: HackUConn2018Logo, url: undefined },
+            { image: HackUConn2018Logo},
             { image: HackUMass2020Logo, url: "https://hackumass.com/" },
             { image: QHacks2021Logo, url: "https://qhacks.io/ " },
           ],
